@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <!--css-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="item item1">0</div>
+        <div class="item item2">C</div>
+        <div class="item item3">+/-</div>
+        <div class="item item4">%</div>
+        <div class="item item5">/</div>
+        <div class="item item6">7</div>
+        <div class="item item7">8</div>
+        <div class="item item8">9</div>
+        <div class="item item9">x</div>
+        <div class="item item10">4</div>
+        <div class="item item11">5</div>
+        <div class="item item12">6</div>
+        <div class="item item13">-</div>
+        <div class="item item14">1</div>
+        <div class="item item15">2</div>
+        <div class="item item16">3</div>
+        <div class="item item17">+</div>
+        <div class="item item18">0</div>
+        <div class="item item19">,</div>
+        <div class="item item20">=</div>
+    </div>
+    <style>
+        .container{
+        width: 250px;
+        display: grid;
+        grid-gap: 2px;
+        grid-template-columns: repeat(4, 1fr);
+        }
+
+        .item1{
+        grid-column: span 4; 
+        background-color: rgb(0, 0,0, 0.4);
+        color: #ffffff !important;
+        text-align: right !important;
+        }
+
+        .item18{
+        grid-column: span 2;
+        }
+
+        .item2, .item3, .item4, .item6, .item7, .item8, .item10, .item11, .item12, .item14, .item15, .item16, .item18, .item19, .item5, .item9, .item13, .item17, .item20{
+            text-align: center;
+        }
+
+        .item2, .item3, .item4{
+            background: #a4a4a4;
+            
+        }
+
+        .item6, .item7, .item8, .item10, .item11, .item12, .item14, .item15, .item16, .item18, .item19{
+            background: #f1f1f1;
+        }
+
+        .item5, .item9, .item13, .item17, .item20{
+            background: #ff9900;
+        }
+
+
+    </style>
+
+</body>
+</html>
